@@ -1,0 +1,18 @@
+{
+  "name": "fake-safecharge",
+  "version": "0.0.0",
+  "description": "Fake safecharge api for dev env",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:purposeindustries/node-fake-safecharge.git"
+  },
+  "author": "Purpose Industries <dev@purposeindustries.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/purposeindustries/node-fake-safecharge/issues"
+  }
+}
