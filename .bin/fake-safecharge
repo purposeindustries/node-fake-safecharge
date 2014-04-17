@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var http = require('http');
+var server = require('..');
+
+http
+  .createServer(server({
+    secret: process.env.SECRET,
+    callback: 'http://localhost:3002/'
+  }))
+  .listen(process.env.PORT || 3001);
